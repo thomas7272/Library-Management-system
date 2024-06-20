@@ -1,0 +1,12 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_8cb8f626292a594c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8cb8f626292a594c | /usr/bin/gzip >> ./library.localhost/private/backups/20240619_180002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-06-19 18:00:03.296213
+Config  : /home/antonjubin/library-bench/sites/library.localhost/private/backups/20240619_180002-library_localhost-site_config_backup.json 127.0B
+Database: /home/antonjubin/library-bench/sites/library.localhost/private/backups/20240619_180002-library_localhost-database.sql.gz 218.1KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8cb8f626292a594c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8cb8f626292a594c | /usr/bin/gzip >> ./library.localhost/private/backups/20240620_000002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-06-20 00:00:04.591519
+Config  : /home/antonjubin/library-bench/sites/library.localhost/private/backups/20240620_000002-library_localhost-site_config_backup.json 127.0B
+Database: /home/antonjubin/library-bench/sites/library.localhost/private/backups/20240620_000002-library_localhost-database.sql.gz 228.5KiB
+Backup for Site library.localhost has been successfully completed

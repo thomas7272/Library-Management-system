@@ -1,0 +1,3 @@
+[submodule "apps/frappe"]
+	path = apps/frappe
+	url = https://github.com/path/to/frappe.git
